@@ -1,0 +1,1 @@
+A complete registration form with authentication using PHP, HTML, CSS and connected to mysql database
