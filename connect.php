@@ -7,7 +7,7 @@
     $password = $_POST['password'];
     $number = $_POST['number'];
    // Database connection
-   $conn = new mysqli('localhost','root','2447'@#','registration_form');
+   $conn = new mysql(Server='aliabdelaali.tech';Port='3306';Database='registration_form';Uid'=root';Pwd='2447');
    if($conn->connect_error){
     echo "$conn->connect_error";
     die("Connection Failed : ". $conn->connect_error);
